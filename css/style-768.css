@@ -1,0 +1,39 @@
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar.small .hotline {
+    top: 13px;
+  }
+  .navbar .hotline {
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    width: 165px;
+    transition: top 0.3s ease;
+    -webkit-transition: top 0.3s ease;
+    -moz-transition: top 0.3s ease;
+    -o-transition: top 0.3s ease;
+  }
+  .banner .banner-bg {
+    height: 230px;
+  }
+  .tc-social-btn .social-icon {
+    width: 35px;
+    height: 35px;
+  }
+  .products .content-box .title {
+    font-size: 18px;
+  }
+  .products .content-box .price {
+    font-size: 24px;
+  }
+  .customer-reviews .author {
+    padding: 0;
+    text-align: center;
+  }
+  .customer-reviews .avatar {
+    float: none;
+  }
+  .customer-reviews .info {
+    float: none;
+    padding: 5px 0;
+  }
+}

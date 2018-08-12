@@ -1,0 +1,92 @@
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) {
+	.container {
+		width: 100%;
+	}
+	
+	.banner {
+		background-color: #9e2c21;
+		.banner-bg {
+			background-image: url('../images/banner-mobile.jpeg'); 
+			height: 225px;
+		}
+	}
+	
+	.tc-social-btn {
+		display: none !important;
+	}
+	
+	.introduction {
+		.intro-bg {			
+			min-height: 350px;
+		}
+
+		.intro-content {
+			padding-top: 40px;
+		}
+	}
+	
+	.products {
+		.content {
+			min-height: auto;
+		}
+	}
+	
+	.benefits {
+		.img-wrapper {	
+			img {
+				margin-top: 10px;
+				margin-bottom: 20px;
+			}
+		}
+		
+		.content {
+			padding-bottom: 10px;
+		}
+	}
+
+	.recruit-banner {
+		background-image: url(../images/banner-recruit-mobile.jpeg);	
+		height: 200px;
+	}
+
+	.footer-above {
+		text-align: center;
+		.list-inline {
+			li {
+				font-size: 18px !important;
+				line-height: 48px !important;
+				border-bottom: 1px solid #fb9e59;
+				&:last-child {
+					border-bottom: none;
+				}
+			}
+			
+			
+			&.menu-list {
+				margin-top: 0;
+				padding: 0 30px;
+			}
+			
+			&.social {
+				li {
+					border-bottom: none !important;
+					&:last-child {
+						margin-right: 0;
+					}
+				}
+			}
+		}
+		
+		.contact {
+			margin-bottom: 30px;
+			padding: 0 30px;
+		}
+		
+		.title {
+			color: #ffffff;
+			font-size: 16px !important;
+			margin-top: 20px !important;
+		}
+	}
+}

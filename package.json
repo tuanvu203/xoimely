@@ -1,0 +1,16 @@
+{
+  "name": "mely",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"watch1": "less-watch-compiler -w less -o css",
+	"watch": "node node_modules/less-watch-compile -w less -o css",
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "less-watch-compiler": "^1.10.0"
+  }
+}
